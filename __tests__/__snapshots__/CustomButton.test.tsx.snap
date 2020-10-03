@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomButton should match to snapshot 1`] = `
+<ForwardRef
+  onPress={[MockFunction]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "borderColor": "#2d3436",
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "marginVertical": 5.885294117647058,
+      "paddingVertical": 23.541176470588233,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+    Label
+  </Text>
+</ForwardRef>
+`;

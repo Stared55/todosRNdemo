@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsScreen should match to snapshot 1`] = `
+<Fragment>
+  <Navbar
+    title="Settings"
+  />
+  <ScrollViewWrapper
+    contentContainer={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingHorizontal": 42.857142857142854,
+      }
+    }
+  >
+    <CustomButton
+      handler={[Function]}
+      label="Save Todos"
+    />
+    <CustomButton
+      handler={[Function]}
+      label="Load Todos"
+    />
+    <CustomButton
+      containerStyles={
+        Object {
+          "backgroundColor": "#B93333",
+        }
+      }
+      handler={[Function]}
+      label="Clear Todos + AsyncStorage"
+    />
+    <CustomButton
+      containerStyles={
+        Object {
+          "marginTop": 90.24117647058823,
+        }
+      }
+      handler={[Function]}
+      label="Share List"
+    />
+  </ScrollViewWrapper>
+</Fragment>
+`;

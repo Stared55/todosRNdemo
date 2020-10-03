@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo should match to snapshot 1`] = `
+<ForwardRef
+  onLongPress={[Function]}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "elevation": 5,
+      "flexDirection": "row",
+      "height": 78.47058823529412,
+      "justifyContent": "center",
+      "marginVertical": 12.857142857142858,
+      "shadowColor": "rgba(0,0,0,0.4)",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.6,
+      "shadowRadius": 3.84,
+      "width": "90%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "10%",
+      }
+    }
+  >
+    <Text>
+      1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": "100%",
+        "justifyContent": "flex-start",
+        "paddingLeft": 6,
+        "width": "75%",
+      }
+    }
+  >
+    <Text>
+      lorem
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "15%",
+      }
+    }
+  >
+    <Text>
+      to do
+    </Text>
+  </View>
+</ForwardRef>
+`;

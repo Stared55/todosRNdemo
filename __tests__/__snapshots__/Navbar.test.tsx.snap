@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should match to snapshot 1`] = `
+<Fragment>
+  <ForwardRef(SafeAreaView)
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+      }
+    }
+  />
+  <StatusBar
+    animated={false}
+    backgroundColor="#ffffff"
+    showHideTransition="fade"
+    translucent={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "borderBottomWidth": 0.6,
+        "borderColor": "#A19F9D",
+        "flexDirection": "row",
+        "height": 98.08823529411764,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 47.08235294117647,
+        }
+      }
+    >
+      Home
+    </Text>
+  </View>
+</Fragment>
+`;

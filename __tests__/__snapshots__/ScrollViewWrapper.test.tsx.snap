@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollViewWrapper should match to snapshot 1`] = `
+<ScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "yellow",
+      "justifyContent": "space-between",
+      "paddingTop": 23.541176470588233,
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "green",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    test test
+  </Text>
+</ScrollView>
+`;

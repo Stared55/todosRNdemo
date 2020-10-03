@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen should match to snapshot 1`] = `
+<Fragment>
+  <Navbar
+    title="Home"
+  />
+  <ActionPanel
+    clearSelected={[Function]}
+    selected={Array []}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "justifyContent": "flex-start",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={Object {}}
+      >
+        No todos found!
+      </Text>
+    </View>
+  </View>
+</Fragment>
+`;

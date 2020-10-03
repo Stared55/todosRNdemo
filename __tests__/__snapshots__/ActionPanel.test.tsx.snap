@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionPanel should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "space-around",
+        "paddingHorizontal": 25.714285714285715,
+        "width": "90%",
+      }
+    }
+  >
+    <CustomButton
+      containerStyles={
+        Object {
+          "width": "22 %",
+        }
+      }
+      handler={[Function]}
+      label="Set Done"
+    />
+    <CustomButton
+      containerStyles={
+        Object {
+          "width": "22 %",
+        }
+      }
+      handler={[Function]}
+      label="Set To Do"
+    />
+    <CustomButton
+      containerStyles={
+        Object {
+          "width": "20 %",
+        }
+      }
+      handler={[Function]}
+      label="Clear"
+    />
+    <CustomButton
+      containerStyles={
+        Object {
+          "width": "30%",
+        }
+      }
+      handler={[Function]}
+      label="Delete Todos"
+    />
+  </View>
+</View>
+`;
